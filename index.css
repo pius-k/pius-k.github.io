@@ -1,0 +1,130 @@
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li {
+    float: right;
+    flex-direction: row-reverse;
+}
+
+#nav a {
+    text-decoration: none;
+}
+
+#nav li .gmail,
+.images {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: none;
+    text-decoration: underline;
+}
+
+.module {
+    padding-right: 10px;
+}
+
+#sign {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+#form {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#offer {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#offer li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+#offer a {
+    text-decoration: none;
+}
+
+#offer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    border-style: thin;
+    border-color: #d3d3d3;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #d3d3d3;
+}
+
+footer li {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+footer #left {
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+footer #right {
+    float: right;
+}
+
+#uganda {
+    display: block;
+    background-color: #d3d3d3;
+    border-width: thin;
+    border-style: groove;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding-left: 80px;
+    height: 1.6em;
+    padding-top: 15px;
+}
+
+.google {
+    width: 500px;
+    height: 2em;
+    border-radius: 20px;
+}
+
+.lucky,
+.such {
+    width: 13em;
+    height: 2.5em;
+}
